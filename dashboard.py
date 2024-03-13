@@ -50,3 +50,5 @@ with col2:
     fig=px.bar(online_del, x=online_del.index, y=online_del.values, template="seaborn") 
     st.plotly_chart(fig, use_container_width=True)
     st.write("Online deliveries is only available in 2 countries, India and UAE")
+
+    
